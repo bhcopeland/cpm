@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo  LD_LIBRARY_PATH=/opt/n2wsoftware/python/lib /opt/n2wsoftware/python/bin/python /cpmdata/scripts/check_instances_stopped.py i-12345678 i-12312312
+
+exit $?
